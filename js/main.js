@@ -1,6 +1,6 @@
 (function() {
-  let btnHeader = document.querySelector('.wrapper-btn');
-  let carousel = document.querySelector('.carousel');
+  var btnHeader = document.querySelector('.wrapper-btn');
+  var carousel = document.querySelector('.carousel');
 
   btnHeader.addEventListener('click', function() {
     btnHeader.classList.add('wrapper-btn_active');
